@@ -1,0 +1,4 @@
+# GitHub Pages（Jekyll）用。ブランチ main の /docs から公開する設定と組み合わせて使います。
+theme: minima
+title: "SimpleTone Reader · Privacy"
+description: "Privacy policies · Trierr"
