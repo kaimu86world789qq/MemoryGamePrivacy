@@ -1,4 +1,7 @@
-# GitHub Pages（Jekyll）用。ブランチ main の /docs から公開する設定と組み合わせて使います。
+# GitHub Pages (Jekyll). When these files are at the repository root,
+# select main / (root) under Settings > Pages.
 theme: minima
-title: "SimpleTone Reader · Privacy"
-description: "Privacy policies · Trierr"
+title: "Memory Challenge · Privacy"
+description: "記憶力チャレンジ / Memory Challenge · Privacy policies · Trierr"
+header_pages:
+  - index.md

@@ -1,121 +1,94 @@
 ---
 layout: page
-title: Privacy Policy (SimpleTone Reader)
+title: Privacy Policy (Memory Challenge)
 ---
 
-# Privacy Policy (SimpleTone Reader)
+# Privacy Policy (Memory Challenge)
 
-**Last updated: May 9, 2026**  
-**Operator: Trierr** (Japanese reading: トリエラ / “Toriera”)  
-This app is operated by an **individual**, not a corporation. **“Trierr”** is the **trade name / brand name** used for this app and related store listings.
+> Draft for the planned release. This policy will be finalized after the AdMob advertising and consent features for Google Play and Amazon have been implemented and verified. It does not describe the current test builds.
 
-This policy describes how information is handled in the mobile application **“SimpleTone Reader”** (the “App”).
+**Last updated: October 17, 2026**  
+**Operator: Trierr** (Japanese reading: トリエラ / Toriera)  
+The App is operated by an individual. Trierr is the operator's trade name / brand name.
 
----
+This policy explains how information is handled in Memory Challenge (Japanese name: 記憶力チャレンジ, the “App”), distributed through Google Play and the Amazon Appstore.
 
-## 1. What the App does
+## 1. About the App
 
-The App lets you open and read documents and images **you choose on your device**.  
-**The App, as implemented, does not upload the content of files you open to servers operated by the operator.**
+The App is a game involving memory of sequences, numbers, and changes, intended for people aged 16 and older. Distribution is planned in Japan, English-speaking markets, and the EU.
 
----
+The App has no account registration, in-app purchases, or cloud storage operated by the operator. It has no feature that sends game scores or play history to the operator's servers. Advertising services collect and transmit information separately, as explained in Section 3.
 
-## 2. Information stored on your device (not sent to the operator’s servers)
+## 2. Information stored on your device
 
-The App may store the following **locally on your device** for functionality. It is **not designed for the operator to remotely access or view** this data.
+The App stores the following information in its local app storage to provide game features. The operator has no feature for remotely retrieving or viewing these saved records.
 
-| Category | Purpose (as implemented) |
-|----------|---------------------------|
-| Reading position / bookmarks | Page index, scroll offset, PDF view state per file |
-| Last opened file | File path to resume reading after restart |
-| Display settings | Theme, margins, font size, line spacing (TXT / EPUB viewers) |
-| Ad frequency controls | Values used to pace interstitial ads (**Android**) |
-| Language override (**debug builds only**) | Optional manual locale in developer builds |
+| Information | Purpose |
+|---|---|
+| Best scores, play counts, cleared rounds, and correct-answer totals | Displaying scores and cumulative records |
+| Daily records by date, game, and difficulty | Displaying past results and participation days |
+| Information identifying previously generated puzzles | Reducing repeated puzzles |
+| Last selected difficulty and unlocked difficulty levels | Maintaining difficulty choices and progress |
+| Tutorial completion status | Managing introductory guidance |
+| Sound and vibration settings | Remembering preferences |
+| Play counter for ad frequency and last ad display time | Controlling how often ads appear |
 
-File paths may reveal folder layout on your device; **unless such data leaves the device, the operator does not receive it.**
+Android automatic backup is disabled in the App's configuration.
 
----
+## 3. Advertising and third-party data processing
 
-## 3. Advertising (Google AdMob and User Messaging Platform)
+### 3.1 Google AdMob
 
-### 3.1 Android
+The planned Google Play and Amazon releases will use Google LLC's Google Mobile Ads SDK (AdMob) to display interstitial (full-screen) ads.
 
-The **Android** build uses the **Google Mobile Ads SDK (AdMob)** and may show **interstitial (full-screen) ads** under certain conditions.
+For advertising, measurement, analytics, and fraud prevention, the advertising SDK may collect information and share it with Google and advertising partners. This includes IP addresses (which may indicate approximate location), advertising and other identifiers, app/ad interactions, and diagnostics. This is separate from the local game records in Section 2; the App does not send those records to the operator.
 
-For ads, **identifiers and device/interaction-related data** may be shared with **Google and its partners** and used for **personalized ads, measurement, and related purposes**. See Google’s policies and the in-app consent (UMP) screens for details.
+For retention, processing locations, recipients, and controls for Google's data processing, see:
 
-### 3.2 Consent and privacy options (UMP)
+- [Google Privacy Policy](https://policies.google.com/privacy)
+- [Google Mobile Ads SDK data disclosure](https://developers.google.com/admob/android/privacy/play-data-disclosure)
 
-Depending on law and Google’s configuration, **User Messaging Platform (UMP)** may show **consent or privacy option** flows.  
-From the in-app **Help** screen, you may open **“Advertising and privacy settings”** (or similar) to review or change choices (exact UI is determined by Google).
+### 3.2 Advertising consent and choices (planned for release)
 
-### 3.3 iOS (current implementation)
+In applicable regions, including the EEA (EU member states and other participating countries), the UK, and Switzerland, the release is planned to use Google's User Messaging Platform (UMP) to present required consent and privacy choices. Processing that requires consent will follow those choices. Personalized advertising will depend on applicable requirements and the user's choices.
 
-The **current codebase does not load or show interstitial ads on iOS.**  
-However, **communication with Google services** may still occur for **consent updates** or related UMP behavior, depending on platform and SDK behavior.
+Where required, the App's settings will provide an entry point to advertising privacy options so users can change or withdraw consent. Withdrawal does not affect the lawfulness of processing before withdrawal. Declining personalized advertising does not necessarily stop all communication or processing needed for ad delivery and fraud prevention.
 
----
+Android settings may allow you to delete or reset your advertising ID. Available controls vary by device and OS.
 
-## 4. Files and storage access
+## 4. Device access and analytics
 
-The App accesses **storage you permit** so you can open **files you select**.  
-**As implemented, it does not send file contents to the operator’s servers.**
+The App uses an internet connection for features such as loading ads. Its game features do not request access to contacts, photos, documents, the camera, the microphone, or precise GPS location.
 
----
+The current game code does not include a separate analytics or crash reporting SDK such as Firebase Analytics or Crashlytics. Advertising SDK interaction and diagnostic data are described in Section 3.
 
-## 5. WebView
+## 5. Information received through support requests
 
-EPUB and HTML-like content may be shown in a **WebView** using **local content**, mainly **files you opened**. The App is **not** intended as a general-purpose browser for tracking arbitrary websites.
+If you contact the operator by email, the operator receives your email address and message and uses them to respond, investigate, and resolve your request. This information is retained for as long as necessary to handle the request and deleted when no longer needed.
 
----
+## 6. Retention and deletion
 
-## 6. Analytics / crash SDKs (dedicated)
+You can delete local game records and settings by clearing the App's data or uninstalling the App. There is no in-app feature for selectively deleting individual records. The operator cannot remotely delete records on your device.
 
-The App’s dependencies **do not include** a separate first-party analytics SDK or dedicated crash reporting SDK (e.g. Firebase Analytics / Crashlytics) in the source tree.  
-(Network activity from **Google’s advertising / consent SDKs** is described above.)
+Uninstalling the App does not itself delete information already received by advertising services. For retention and deletion of data handled by Google, consult Google's policies and settings.
 
----
+## 7. International processing and your rights
 
-## 7. Third parties
+Advertising services may process information outside your country or region. Google's Privacy Policy explains its international transfer mechanisms and safeguards.
 
-For advertising, data may be shared with **Google LLC, its affiliates, and advertising partners** as described in Google’s policies and UMP screens.
+Depending on applicable law, you may have rights to access, correct, delete, restrict processing of, object to processing of, or obtain a portable copy of personal data, and to withdraw consent. Contact the operator using Section 10 about information handled by the operator. For information handled by Google, you can also use the contacts and controls described in Google's policies. You may lodge a complaint with your local data protection supervisory authority.
 
-- Google Privacy Policy: https://policies.google.com/privacy  
+## 8. Age group
 
----
+The App is intended for people aged 16 and older and is not offered as a service directed to children under 16. The operator does not knowingly collect personal information from children under 16. Please contact the operator using Section 10 if you have concerns.
 
-## 8. Retention and deletion
+## 9. Changes to this policy
 
-Local data can often be removed by **uninstalling the App** or clearing app storage (varies by OS). For ad/consent data, follow **Google’s settings and help**.
+This policy will be updated when App features or service providers change. Changes and the updated date will be posted on this page. Important changes will also be communicated in the App where necessary.
 
----
+## 10. Contact
 
-## 9. Children
+**Operator: Trierr**  
+**Email:** [dokuostyktusdfire45gnbr1988@gmail.com](mailto:dokuostyktusdfire45gnbr1988@gmail.com)
 
-The App is **not primarily directed at children under 13.** If minors use the App, **parental guidance is recommended.**
-
----
-
-## 10. International transfers
-
-Advertising and consent processing may involve **transfer and processing outside your country** (e.g. including the United States or the EEA). See Google’s policies.
-
----
-
-## 11. Changes
-
-This policy may change with laws or App features. The **posted version** applies. Material changes may be communicated in the App where appropriate.
-
----
-
-## 12. Contact
-
-For questions about this policy or data practices:
-
-- **Email:** dokuostyktusdfire45gnbr1988@gmail.com
-
----
-
-## 13. Disclaimer
-
-This document reflects the **technical behavior of the codebase** at the time of publication. **It is not legal advice.** For compliance with specific laws (e.g. GDPR, local privacy laws), consult a qualified professional.
+[日本語](privacy-ja.html) · [Policy home](index.html)
