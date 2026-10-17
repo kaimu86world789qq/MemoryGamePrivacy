@@ -5,7 +5,6 @@ title: Privacy Policy (Memory Challenge)
 
 # Privacy Policy (Memory Challenge)
 
-> Draft for the planned release. This policy will be finalized after the AdMob advertising and consent features for Google Play and Amazon have been implemented and verified. It does not describe the current test builds.
 
 **Last updated: October 17, 2026**  
 **Operator: Trierr** (Japanese reading: トリエラ / Toriera)  
@@ -30,7 +29,7 @@ The App stores the following information in its local app storage to provide gam
 | Information identifying previously generated puzzles | Reducing repeated puzzles |
 | Last selected difficulty and unlocked difficulty levels | Maintaining difficulty choices and progress |
 | Tutorial completion status | Managing introductory guidance |
-| Sound and vibration settings | Remembering preferences |
+| Vibration settings | Remembering preferences |
 | Play counter for ad frequency and last ad display time | Controlling how often ads appear |
 
 Android automatic backup is disabled in the App's configuration.
@@ -39,7 +38,7 @@ Android automatic backup is disabled in the App's configuration.
 
 ### 3.1 Google AdMob
 
-The planned Google Play and Amazon releases will use Google LLC's Google Mobile Ads SDK (AdMob) to display interstitial (full-screen) ads.
+The Google Play and Amazon releases use Google LLC's Google Mobile Ads SDK (AdMob) to display interstitial (full-screen) ads.
 
 For advertising, measurement, analytics, and fraud prevention, the advertising SDK may collect information and share it with Google and advertising partners. This includes IP addresses (which may indicate approximate location), advertising and other identifiers, app/ad interactions, and diagnostics. This is separate from the local game records in Section 2; the App does not send those records to the operator.
 
@@ -48,11 +47,11 @@ For retention, processing locations, recipients, and controls for Google's data 
 - [Google Privacy Policy](https://policies.google.com/privacy)
 - [Google Mobile Ads SDK data disclosure](https://developers.google.com/admob/android/privacy/play-data-disclosure)
 
-### 3.2 Advertising consent and choices (planned for release)
+### 3.2 Advertising consent and choices
 
-In applicable regions, including the EEA (EU member states and other participating countries), the UK, and Switzerland, the release is planned to use Google's User Messaging Platform (UMP) to present required consent and privacy choices. Processing that requires consent will follow those choices. Personalized advertising will depend on applicable requirements and the user's choices.
+In applicable regions, including the EEA (EU member states and other participating countries), the UK, and Switzerland, the App uses Google's User Messaging Platform (UMP) to present required consent and privacy choices according to the user's region and Google's message configuration. Processing that requires consent will follow those choices. Personalized advertising will depend on applicable requirements and the user's choices.
 
-Where required, the App's settings will provide an entry point to advertising privacy options so users can change or withdraw consent. Withdrawal does not affect the lawfulness of processing before withdrawal. Declining personalized advertising does not necessarily stop all communication or processing needed for ad delivery and fraud prevention.
+Where required, the App's settings provide an entry point to advertising privacy options so users can change or withdraw consent. Withdrawal does not affect the lawfulness of processing before withdrawal. Declining personalized advertising does not necessarily stop all communication or processing needed for ad delivery and fraud prevention.
 
 Android settings may allow you to delete or reset your advertising ID. Available controls vary by device and OS.
 
